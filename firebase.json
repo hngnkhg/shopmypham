@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "dist",  // Đảm bảo là thư mục build của Vue
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
